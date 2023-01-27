@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Proyecto Final</title>
+    <link rel="icon" href="img\favicon.ico"> <!--Lo saque de este lugar https://www.pngegg.com/es/png-xkulh/download-->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/formulario.css"><!--Estilo para el formulario (contactos)-->
+    <link rel="stylesheet" href="css/menu.css"><!--Aca donde le doy estilo a la barrra de busqueda, menu(hedaer)-->
+
+   
+    <script defer src="js/menu.js"></script><!--Puse el script en el head, con el atributo (DEFER), para indicar al navegador que no espere por el script-->
+
+    <script src="https://kit.fontawesome.com/c3f35b30c5.js" crossorigin="anonymous"></script><!--Aca esta el script del icono de la hamburguesa (menu) Lo saque de https://fontawesome.com/icons/star?s=solid&f=classic-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet"> <!--Fuente de texto (h1) SACADO DE (https://fonts.google.com)-->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"><!--Fuente de texto (h2 general) SACADO DE (https://fonts.google.com)-->
+</head>
+
+<body>
+
+
+            <!--Lo saque de youtube (Barra de navegación responsive y accesible con HTML, CSS y JS | Diseño adaptativo - flexbox)-->
+        <header class="header"><!--Header, contine toda la barra de busqueda (MENU)-->
+            <nav class="nav">
+                <a href="#" class="logo nav-link">Cv</a>
+                <button class="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="#experiencia-img" class="nav-menu-link nav-link" onclick="funcion ()">Experiencias</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#certificaciones-img" class="nav-menu-link nav-link" onclick="funcion ()">certificaciones</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#perfil-img" class="nav-menu-link nav-link" onclick="funcion ()">Sobre mi</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#scroll-contactar" class="nav-menu-link nav-link nav-menu-link-active" onclick="funcion ()">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header><!--Aca termina------------------------------>
+
+            <!--Sección foto (cv) nombre (Raul Mélendez)-->
+        <section class="container-principal">            
+                    <img class="imagen-cv" src="img/Untitled Project.jpg" alt="Foto del Cv">
+                    <h1>Raúl Meléndez</h1>             
+        </section> <!--Aca termina-------------------------------->   
+
+        <hr>
+        <br>
+        <br>
+                <!--imagen de codigo binario-->
+        <section class="container">
+            <div class="row d-fex codigo-binario">
+                <div class="col-md-6 fila-1 p-0 me-0"></div>
+                <div class="col-md-6 fila-2 p-0"></div>
+            </div>
+        </section> <!--Aca termina-------------------------------->
+
+        <br>
+        <br>
+        <hr>
+                <!--Sección Perfil-->
+        <section class="container">
+            <div class="row d-flex">
+                <h2 id="perfil-img">Perfil</h2>  
+                <div class="col-sm-12 col-md-12 parrafo">                                                                             
+                    <p><b>Desarollador de softwar</b> con experencia en diseño, instalación, pruebas y mantenimiento de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados. Experencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo.</p>
+                </div>
+            </div>
+        </section> <!--Aca termina-------------------------------->
+
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br> 
+                <!--Sección Experencia-------->      
+        <section class="container">
+            <div class="row d-flex">   
+                <h2 id="experiencia-img">Experiencia Laboral</h2>                                   
+                <div class="col-sm-12 col-md-6 parrafo">
+                    <h3>Desarrollador de Software</h3>
+                    <hr>
+                    <p>CYXUS, California</p>
+                    <hr>
+                    <br>
+                    <b>May. 2020 - jun. 2021</b>
+                    <hr>
+                    <ul>
+                        <li>
+                            Colaboración con el equipo de producción para conocer los requisitos y las especificaciones empresariales en torno a la gestión de carteras, análisis y riesgos.
+                        </li>
+                        <li>
+                            Resolución de problemas complejos utilizando las últimas tecnologías móviles, web y de nube.
+                        </li>                        
+                        <li>
+                            Codificación eficaz de cambios y alteraciones de software en base a especificaciones de diseño concretas.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 parrafo">
+                    <h3>
+                        Desarrollador de Software
+                    </h3>
+                    <hr>
+                    <p>
+                        control PRO, Barcelona
+                    </p>
+                    <hr>
+                    <br>
+                    <b>
+                        Sep. 2018 - abr. 2020
+                    </b>
+                    <hr>
+                    <ul>
+                        <li>
+                            Trabajé con éxito tanto a nivel independiente como en equipo.
+                        </li>
+                        <li>
+                            Realicé tareas de pruebas automatizadas y desarrollé funciones complejas de forma rutinaria.
+                        </li>
+                        <li>
+                            Abordé eficazmente errores complejos.
+                        </li>
+                        <li>
+                            Implementación y actualización de módulos de aplicación bajo la dirección de desarroladores de software senior.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section><!--Aca termina-------------------------------->
+
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+                    <!--Sección Certificaciones-->
+        <section class="container">
+            <div class="row">
+                    <h2 id="certificaciones-img">Est. y certificaciones</h2>
+                <div class="col-sm-12 col-md-12 parrafo">
+                    <h3>Máster en ingeniería informática</h3>
+                    <br>
+                    <hr>                
+                    <p>Ene. 2015 - jun. 2017</p>               
+                    <p>
+                        Escuela de ingeniería de informática, Universidad de Buenos Aires (Buenos Aires).
+                    </p>
+                    <br>
+                    <br>
+                    <h3>
+                        Lic. en ingeniería informática
+                    </h3>
+                    <br>
+                    <hr>
+                    <p>
+                        Sept. 2011 - jun. 2014
+                    </p>
+                    <p>
+                        Escuela de ingeniería de informática, Universidad de Buenos Aires (Buenos Aires).
+                    </p>
+                </div>                 
+            </div>
+        </section><!--Aca termina-------------------------------->
+
+        <hr>
+        <br>
+        <br>   
+                <!--imagen de codigo binario-->
+        <section class="container"><!--imagen de codigo binario-->
+            <div class="row d-fex codigo-binario">
+                <div class="col-md-6 fila-1 p-0 me-0"></div>
+                <div class="col-md-6 fila-2 p-0"></div>
+            </div>
+        </section><!--Aca termina-------------------------------->
+
+        <br>
+        <br>
+        <hr>
+                    <!---------Aca empieza el formulario--------------------->
+        <div id="scroll-contactar" class="horizontal-padding vertical-padding"> <!--Lo saque de youtube (Sección de contacto con CSS Grid 🔥 | Página web desde cero - parte 6)-->
+            <section class="contact" id="contact">
+                <h2 class="contact-title">Contacto</h2>
+                <div class="contact-details">
+                    <div class="contact-details-group">
+                        <p class="contact-label">Direccion:</p>
+                        <p class="contact-text">Buenos-Aires, Argentina</p>
+                    </div>
+                    <div class="contact-details-group">
+                        <p class="contact-label">Email</p>
+                        <p class="contact-text">rm3338212@gmail.com</p>
+                    </div>
+                    <div class="contact-details-group">                        
+                        <p class="contact-text">
+                            Deje su mensaje y con gusto le responderé
+                        </p>
+                    </div>
+                </div>
+                <form id="form" class="contact-form">
+                    <div class="contact-form-gruop">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div id="nombre-b" style="display: none;">
+                        <p id="error-c">Este campo es obligatorio.</p>
+                    </div>
+                    <div class="contact-form-gruop">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div id="email-b" style="display: none;">
+                        <p id="error-c">Este campo es obligatorio.</p>
+                    </div>
+                    <div class="contact-form-gruop">
+                        <label for="message">Mensaje</label>                        
+                        <textarea name="message" id="message" rows="6"></textarea>
+                    </div>
+                    <div id="mensaje-b" style="display: none;">
+                        <p id="error-c">Este campo es obligatorio.</p>
+                    </div>
+
+                    <button type="submit" class="contact-form-subimt">Enviar</button>
+                </form>
+                <nav class="social">
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://www.instagram.com/raulmelendez62/" target="_blank">
+                                <img src="menu/instagram.svg" alt="Instagram profile">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/BrunoVidales" target="_blank">
+                                <img src="menu/github.svg" alt="github profile">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/raulmelendezzz" target="_blank">
+                                <img src="menu/twitter.svg" alt="Twitter profile">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </div><!--Aca termina-------------------------------->
+
+        <script src="js/formulario.js"></script><!--Script del formulario (contacto)-->
+        
+
+</body>
+</html>
